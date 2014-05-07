@@ -14,7 +14,7 @@ namespace InchesToFeet
 
         public static void Yards(int inches)
         {
-            Console.WriteLine("{0} yards and {1} feet and {2} inches", inches / 12 / 3, (inches / 12 / 3) - (inches / 12), inches % 12);
+            Console.WriteLine("{0} yards and {1} feet and {2} inches", inches / 12 / 3, inches / 12 % 3, inches % 12);
  
         }
         public static void Main()
