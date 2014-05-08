@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication4", "ConsoleApplication4\ConsoleApplication4.csproj", "{A8ACEB8D-4F59-478A-8F56-5758D95BEA98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication5", "ConsoleApplication5\ConsoleApplication5.csproj", "{83944977-8AAD-455A-9E39-474F9CBA059F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{A8ACEB8D-4F59-478A-8F56-5758D95BEA98}.Debug|x86.Build.0 = Debug|x86
 		{A8ACEB8D-4F59-478A-8F56-5758D95BEA98}.Release|x86.ActiveCfg = Release|x86
 		{A8ACEB8D-4F59-478A-8F56-5758D95BEA98}.Release|x86.Build.0 = Release|x86
+		{83944977-8AAD-455A-9E39-474F9CBA059F}.Debug|x86.ActiveCfg = Debug|x86
+		{83944977-8AAD-455A-9E39-474F9CBA059F}.Debug|x86.Build.0 = Debug|x86
+		{83944977-8AAD-455A-9E39-474F9CBA059F}.Release|x86.ActiveCfg = Release|x86
+		{83944977-8AAD-455A-9E39-474F9CBA059F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
