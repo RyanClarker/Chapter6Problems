@@ -7,16 +7,16 @@ namespace ConsoleApplication5
 {
     class Reverse3
     {
-        public static void Reverse(ref int firstInt, ref int thirdInt)
+        public static void Reverse(ref int thirdInt, ref int firstInt, ref int secondInt)
     {
-        firstInt = thirdInt;
-        thirdInt = firstInt;
+            firstInt = thirdInt;
+            thirdInt = firstInt - secondInt ;
     }
         static void Main(string[] args)
         {
             int firstInt = 1; int secondInt = 2; int thirdInt = 3;
             Console.WriteLine("{0} and {1} and {2}",firstInt, secondInt, thirdInt);
-            Reverse(ref thirdInt,ref firstInt );
+            Reverse(ref thirdInt,ref firstInt, ref secondInt );
 
             Console.WriteLine(firstInt);
             Console.WriteLine(secondInt);
