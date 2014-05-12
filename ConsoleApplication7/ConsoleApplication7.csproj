@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B52E6ECC-03DA-4FD3-8D17-786C3DB6AAD0}</ProjectGuid>
+    <ProjectGuid>{D9D2DCF3-2716-4FFD-9313-54ECE0F75951}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InchesToFeet</RootNamespace>
-    <AssemblyName>InchesToFeet</AssemblyName>
+    <RootNamespace>ConsoleApplication7</RootNamespace>
+    <AssemblyName>ConsoleApplication7</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InchesToFeet.cs" />
+    <Compile Include="Reverse4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

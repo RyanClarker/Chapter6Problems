@@ -7,9 +7,10 @@ namespace ConsoleApplication4
 {
     class Square
     {
-        public static void Squared(ref int i)
+        public static void Squared(ref int tree)
         {
-            Console.WriteLine(i * i); ;
+            tree = tree * tree;
+            Console.WriteLine(tree); ;
         }
         static void Main(string[] args)
         {
@@ -18,6 +19,7 @@ namespace ConsoleApplication4
             i = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(i);
             Squared(ref i);
+            Console.WriteLine(i);
         }
     }
 }
